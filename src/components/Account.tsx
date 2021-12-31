@@ -35,7 +35,9 @@ export default function Account({
                     <div className="balance-value">
                     In order to proceed you need some Mer tokens.
                     </div>
-                   You dont have any. You can get some from  <a href="https://www.sushi.com/">Sushi Swap</a> I think.
+                    <div>&nbsp;</div>
+                   <div>Connect to your wallet that has Mer tokens...</div>
+                   <div>Or get some tokens from  <a href="https://www.sushi.com/">Sushi Swap</a> or a friend.</div>
                   </div>
                 </div>
   
@@ -43,9 +45,10 @@ export default function Account({
             }
           })}
         </div>
+        <div>&nbsp;</div>
         <div className="account">
         <div className="address">
-          <small>FYI this is for wallet: {account.address}</small>
+          <small>FYI you are using wallet: {account.address}</small>
         </div>
       </div>
     </>
